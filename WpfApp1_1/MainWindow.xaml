@@ -8,26 +8,25 @@
         Title="Калькулятор" Height="330" Width="260">
     <Grid Background="AliceBlue">
         <TextBlock HorizontalAlignment="Left" Background="White" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="47" Width="230"/>
-        <Grid HorizontalAlignment="Left" Height="218" Margin="10,71,0,0" VerticalAlignment="Top" Width="176">
-            <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="2" HorizontalAlignment="Left" Margin="55,0,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="3" HorizontalAlignment="Left" Margin="110,0,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="4" HorizontalAlignment="Left" Margin="0,55,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="5" HorizontalAlignment="Left" Margin="55,55,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="6" HorizontalAlignment="Left" Margin="110,55,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="7" HorizontalAlignment="Left" Margin="0,110,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="8" HorizontalAlignment="Left" Margin="55,110,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="9" HorizontalAlignment="Left" Margin="110,110,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="0" HorizontalAlignment="Left" Margin="0,165,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="," HorizontalAlignment="Left" Margin="55,165,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="=" HorizontalAlignment="Left" Margin="110,165,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-        </Grid>
-        <Grid HorizontalAlignment="Left" Height="217" Margin="191,72,0,0" VerticalAlignment="Top" Width="51">
-            <Button Content="+" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="-" HorizontalAlignment="Left" Margin="0,55,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="*" HorizontalAlignment="Left" Margin="0,110,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-            <Button Content="/" HorizontalAlignment="Left" Margin="0,165,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
-        </Grid>
+
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Margin="10,74,0,0"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="65,74,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="120,74,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="65,129,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="120,129,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="65,184,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="120,184,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="65,239,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="120,239,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+
+        <Button Content="+" HorizontalAlignment="Left" Margin="192,74,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="192,129,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="192,184,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="192,239,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
+
 
     </Grid>
 </Window>
